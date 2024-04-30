@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>1. Building TUIs with Textual</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-001">
+
+<div id="nav-prev" class="nav-link">
+</div>
+
+<div id="content">
+<h1>Building TUIs with Textual</h1>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-002.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowRight":
+                window.location.href = "page-002.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-002.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

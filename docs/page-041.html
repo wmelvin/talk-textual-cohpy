@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>41. Project Setup</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-041">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-040.html">&larr;</a>
+</div>
+
+<div id="content">
+<h2>Project Setup</h2>
+<h3>hatch init</h3>
+<p>Running <code>hatch init</code> creates scaffolding for a Python project.</p>
+<ul>
+<li>Directory tree (uses a <a target="_blank" href="https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/">src layout</a>)</li>
+<li>Default <code>LICENSE</code> and <code>README</code> files</li>
+<li><a target="_blank" href="https://packaging.python.org/en/latest/specifications/pyproject-toml/">pyproject.toml</a></li>
+</ul>
+<p>I made some edits before doing the initial <code>git commit</code>.</p>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-042.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-040.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-040.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-042.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-042.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

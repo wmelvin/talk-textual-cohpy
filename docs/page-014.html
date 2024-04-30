@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>14. Textual</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-014">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-013.html">&larr;</a>
+</div>
+
+<div id="content" class="img-auto">
+<h2>Textual</h2>
+<h3>How I heard about Textual</h3>
+<h4>Podcast - Talk Python to Me</h4>
+<p><a target="_blank" href="https://talkpython.fm/">Talk Python to Me</a></p>
+<p><img src="images/podcast-talkpython.jpg" alt="Talk Python to Me logo" /></p>
+<p><a target="_blank" href="https://talkpython.fm/episodes/show/336/terminal-magic-with-rich-and-textual">Episode #336</a> - Terminal magic with Rich and Textual</p>
+<p><a target="_blank" href="https://talkpython.fm/episodes/show/380/7-lessons-from-building-a-modern-tui-framework">Episode #380</a> - 7 lessons from building a modern TUI framework</p>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-015.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-013.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-013.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-015.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-015.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

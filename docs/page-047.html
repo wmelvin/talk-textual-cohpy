@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>47. Using the App</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-047">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-046.html">&larr;</a>
+</div>
+
+<div id="content">
+<h2>Using the App</h2>
+<h3>Outputs</h3>
+<p><strong>Data CSV</strong> - Stored in user app data location.</p>
+<p><strong>Daily CSV</strong> - Aligns with the layout of the spreadsheet I've been using for years.</p>
+<p><strong>Daily Markdown</strong> - Written to an <a target="_blank" href="https://obsidian.md/">Obsidian</a> <em>Daily Notes</em> file.</p>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-048.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-046.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-046.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-048.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-048.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>26. Pomodoro Timer - Home Office</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-026">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-025.html">&larr;</a>
+</div>
+
+<div id="content" class="timer-pic">
+<h4>Pomodoro Timer - Home Office</h4>
+<p>This one beeps when it's done, but doesn't tick the whole time.</p>
+<p><img src="images/timer-digital-1-600.jpg" alt="Digital Kitchen Timer" /></p>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-027.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-025.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-025.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-027.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-027.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>4. At work in 1994</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-004">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-003.html">&larr;</a>
+</div>
+
+<div id="content" class="text-center img-70">
+<h3>At work in 1994</h3>
+<p><img src="images/Bill-at-DHI-Mar-94.jpg" alt="Bill at work in 1994" /></p>
+<p>Probably working on a <a target="_blank" href="https://en.wikipedia.org/wiki/Turbo_Pascal">Turbo/Borland Pascal</a> program, in a text-only interface, on a PC running <a target="_blank" href="https://en.wikipedia.org/wiki/MS-DOS">MS-DOS</a>.</p>
+<p>I suppose in 1994, it could have been running <a target="_blank" href="https://en.wikipedia.org/wiki/Windows_3.1">Windows 3.1</a>, but I don't recall.</p>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-005.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-003.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-003.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-005.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-005.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

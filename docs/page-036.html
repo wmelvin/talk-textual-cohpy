@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>36. Simon Willison</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-036">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-035.html">&larr;</a>
+</div>
+
+<div id="content">
+<h4>Simon Willison</h4>
+<ul>
+<li><a target="_blank" href="https://github.com/simonw">github.com/simonw</a></li>
+<li>Post: <a target="_blank" href="https://github.com/simonw/til/blob/f57ab1cddaee30af59c063ab857dac15f6d62376/django/just-with-django.md#L15">just-with-django.md</a></li>
+<li>Post: <a target="_blank" href="https://til.simonwillison.net/python/pyproject">Python packages with pyproject.toml and nothing else</a></li>
+</ul>
+<p><img src="images/github-SimonWillison.jpg" alt="Simon Willison GitHub" /></p>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-037.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-035.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-035.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-037.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-037.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

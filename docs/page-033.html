@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>33. Project tools</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-033">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-032.html">&larr;</a>
+</div>
+
+<div id="content" class="dbl">
+<h2>Project tools</h2>
+<ul>
+<li><a target="_blank" href="https://hatch.pypa.io/latest/">Hatch</a> - Python project manager (environments, packaging, and more)</li>
+<li><a target="_blank" href="https://docs.astral.sh/ruff/">Ruff</a> - linter and code formatter (integrated with Hatch)</li>
+<li><a target="_blank" href="https://docs.pytest.org/en/stable/">pytest</a> - testing framework</li>
+<li><a target="_blank" href="https://github.com/casey/just#readme">Just</a> - command runner</li>
+</ul>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-034.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-032.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-032.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-034.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-034.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

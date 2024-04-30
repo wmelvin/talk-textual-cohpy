@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>10. Do you need a GUI?</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-010">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-009.html">&larr;</a>
+</div>
+
+<div id="content" class="dbl">
+<h2>Do you need a GUI?</h2>
+<p>If you're building a web, or mobile, application, the answer is <strong>yes</strong> (by default).</p>
+<p>If you're building a utility that will run on a local machine, the answer is <strong>it depends</strong>.</p>
+<ul>
+<li>If the output is essentially graphical in nature (data visualization, etc.), you probably do want a GUI.</li>
+<li>Otherwise you may want to consider a simpler option.</li>
+</ul>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-011.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-009.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-009.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-011.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-011.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

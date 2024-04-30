@@ -1,0 +1,117 @@
+/* Override / extend */
+
+p { font-size: larger; }
+
+li { font-size: 20px; }
+
+blockquote { font-size: 16px; }
+
+h1 { font-size: 45px; }
+h2 { font-size: 40px; }
+h3 { font-size: 35px; }
+h4 { font-size: 30px; }
+h5 { font-size: 25px; }
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    color: steelblue;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h4 { color: rgb(66, 96, 121); }
+
+h5 { color: rgb(38, 55, 70); }
+
+hr {
+    color: navy;
+    margin-bottom: 2rem;
+}
+
+#content {
+    min-height: 500px;
+    font-size: large;
+}
+
+#content { border: none; }
+#container.show-nav #content { border: 1px solid silver; }
+
+
+/* Custom classes */
+
+.blockcode blockquote {
+    background-color: #111;
+    color: lime;
+    font-family: monospace;
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+.img-auto img { width: auto;}
+
+.img-50 img { width: 50%; }
+.img-70 img { width: 70%; }
+
+.timer-pic { text-align: center; }
+.timer-pic img { width: 60%; }
+
+.dbl h2 { margin-bottom: 4rem; }
+.dbl p { margin-top: 2rem; }
+.dbl li { margin-top: 2rem; }
+
+
+/* Index page */
+
+.index-lev-2 a { padding-left: 2rem; color: steelblue }
+.index-lev-3 a { padding-left: 4rem; color: darkcyan; }
+.index-lev-4 a { padding-left: 6rem; color: green; }
+.index-lev-5 a { padding-left: 8rem; color: brown; }
+
+
+/* Specific Pages */
+
+.pg-test {
+    background-image: linear-gradient(
+        to right,
+        rgb(255 255 255 / 100%),
+        rgb(255 255 255 / 60%)
+    ), url('images/test-chart.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ibm-pc img {
+    margin-left: 35%;
+    width: 65%;
+}
+
+.pg-more-about {
+    h3 { margin-bottom: 3rem; }
+    em strong { color: brown; }
+    p { margin-top: 2rem; }
+}
+
+.pg-spreadsheet img {
+    margin-left: 5%;
+    width: 60%;
+}
+
+.pg-just p:nth-child(even) {margin-top: 4rem;}
+
+.the-end h2, .the-end h3 { margin-bottom: 4rem; }
+.the-end hr { margin: 3rem 0; }
+
+/*
+.pg-py-input img { width: 50%; }
+.pg-bindings img { width: 50%; }
+.pg-just h3 {margin-bottom: 4rem;}
+.pg-just p:nth-child(4)  {margin-top: 4rem;}
+*/

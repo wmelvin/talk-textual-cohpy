@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>3. More About Me</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-003">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-002.html">&larr;</a>
+</div>
+
+<div id="content" class="pg-more-about text-center">
+<h3>More About Me</h3>
+<p>I am <strong>not</strong> an <em>Authority</em> or <em>Expert</em></p>
+<p>I <strong>am</strong> a <em>Learner</em>, <em>Explorer</em>, and <em>Experimenter</em></p>
+<p>I am <strong>not</strong> a <em>Computer Scientist</em> or <em>Software <strong>E</strong>ngineer</em></p>
+<p>However I <strong>am</strong> an experienced <em>Software Developer</em></p>
+<p>and I may have done some <em>software <strong>e</strong>ngineering</em></p>
+<p>(and perhaps a little <em>prompt <strong>e</strong>ngineering</em> as well ;)</p>
+<!-- 
+I hesitate to call myself an "Engineer" because I do not have a college degree.
+Nonetheless I have done work that would probably qualify as "software engineering."
+-->
+
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-004.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-002.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-002.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-004.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-004.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>

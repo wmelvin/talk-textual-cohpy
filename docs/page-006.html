@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>6. Graphical User Interface (GUI)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<div id="container" class="page-006">
+
+<div id="nav-prev" class="nav-link">
+  <a href="page-005.html">&larr;</a>
+</div>
+
+<div id="content">
+<h2>Graphical User Interface (GUI)</h2>
+<p>The <a target="_blank" href="https://en.wikipedia.org/wiki/Graphical_user_interface">Graphical user interface</a> has largely replaced the earlier text-based UIs.</p>
+<p>The term <em>Graphical User Interface</em> may have been used more in the past to make the distinction between this new style versus the text-based user interfaces common at the time GUIs were introduced more widely.</p>
+<ul>
+<li><p>Desktop applications</p>
+</li>
+<li><p>Web browser / applications</p>
+</li>
+<li><p><strong>Highly interactive</strong></p>
+</li>
+</ul>
+</div>  <!-- content -->
+
+<div id="nav-next" class="nav-link">
+  <a href="page-007.html">&rarr;</a>
+</div>
+
+</div>  <!-- container -->
+
+<script type="text/javascript">
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        switch (key) {
+            case "ArrowLeft":
+                window.location.href = "page-005.html";
+                break;
+            case "PageUp":
+                window.location.href = "page-005.html";
+                break;
+            case "ArrowRight":
+                window.location.href = "page-007.html";
+                break;
+            case "PageDown":
+                window.location.href = "page-007.html";
+                break;
+            default:
+                break;
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var containerDiv = document.getElementById('container');
+    var timeoutId;
+    document.addEventListener('mousemove', function() {
+        containerDiv.classList.add('show-nav');
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(function() {
+            containerDiv.classList.remove('show-nav');
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>
