@@ -44,7 +44,7 @@ Nonetheless I have done work that would probably qualify as "software engineerin
 
 ### At work in 1994
 
-![Bill at work in 1994](images/Bill-at-DHI-Mar-94.jpg)
+![Bill at work in 1994](docs/images/Bill-at-DHI-Mar-94.jpg)
 
 Probably working on a [Turbo/Borland Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal) program, in a text-only interface, on a PC running [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS).
 
@@ -61,7 +61,7 @@ I suppose in 1994, it could have been running [Windows 3.1](https://en.wikipedia
 - 80 x 25 character display
 - **Limited interactivity**
 
-![IBM PC](images/IBM_5154_-_PC_DOS_Prompt-crop-scale.jpg)
+![IBM PC](docs/images/IBM_5154_-_PC_DOS_Prompt-crop-scale.jpg)
 
 <!-- class: ibm-pc -->
 ---
@@ -112,7 +112,7 @@ Web applications are also GUIs, and Python has many options for creating them:
 
 [PgAdmin4](https://www.pgadmin.org/) is an example of a web application that can run locally or on a server.
 
-![PgAdmin4 screen](images/screen-pgAdmin4.jpg)
+![PgAdmin4 screen](docs/images/screen-pgAdmin4.jpg)
 
 > "pgAdmin 4 is a complete rewrite of pgAdmin, built using Python and Javascript/jQuery. A desktop runtime written in NWjs allows it to run standalone for individual users, or the web application code may be deployed directly on a web server for use by one or more users through their web browser."
 
@@ -151,9 +151,9 @@ If you're building a utility that will run on a local machine, the answer is **i
 
 ### Python - input
 
-![Python input](images/code-py-input-1.png)
+![Python input](docs/images/code-py-input-1.png)
 
-![Python output](images/code-py-input-2.png)
+![Python output](docs/images/code-py-input-2.png)
 
 <!-- class: img-50 -->
 
@@ -181,7 +181,7 @@ If you're building a utility that will run on a local machine, the answer is **i
 
 [Talk Python to Me](https://talkpython.fm/)
 
-![Talk Python to Me logo](images/podcast-talkpython.jpg)
+![Talk Python to Me logo](docs/images/podcast-talkpython.jpg)
 
 [Episode #336](https://talkpython.fm/episodes/show/336/terminal-magic-with-rich-and-textual) - Terminal magic with Rich and Textual
 
@@ -195,7 +195,7 @@ If you're building a utility that will run on a local machine, the answer is **i
 
 [Python Bytes](https://pythonbytes.fm/)
 
-![Python Bytes logo](images/podcast-pythonbytes.jpg)
+![Python Bytes logo](docs/images/podcast-pythonbytes.jpg)
 
 [Episode #299](https://pythonbytes.fm/episodes/show/299/will-mcgugan-drops-by) - Will McGugan drops by
 
@@ -207,7 +207,7 @@ If you're building a utility that will run on a local machine, the answer is **i
 
 [Real Python Podcast](https://realpython.com/podcasts/rpp/)
 
-![Real Python Podcast logo](images/podcast-realpython.jpg)
+![Real Python Podcast logo](docs/images/podcast-realpython.jpg)
 
 [Episode #80](https://realpython.com/podcasts/rpp/80/) - Make Your Python App Interactive With a Text User Interface (TUI)
 
@@ -221,7 +221,7 @@ Article: [Python Community Interview With Will McGugan](https://realpython.com/i
 
 [github.com/willmcgugan](https://github.com/willmcgugan)
 
-![Will McGugan GitHub](images/github-WillMcGugan.jpg)
+![Will McGugan GitHub](docs/images/github-WillMcGugan.jpg)
 
 <!-- class: text-center -->
 
@@ -233,7 +233,7 @@ Article: [Python Community Interview With Will McGugan](https://realpython.com/i
 
 > "Rich is a Python library for rich text and beautiful formatting in the terminal."
 
-![Rich screenshot](images/screen-rich.jpg)
+![Rich screenshot](docs/images/screen-rich.jpg)
 
 <!-- class: text-center -->
 
@@ -243,7 +243,7 @@ Article: [Python Community Interview With Will McGugan](https://realpython.com/i
 
 [textual.textualize.io](https://textual.textualize.io/)
 
-![Textual Welcome Screen](images/textual-welcome.jpg)
+![Textual Welcome Screen](docs/images/textual-welcome.jpg)
 
 <!-- class: text-center -->
 
@@ -290,7 +290,7 @@ Article: [Python Community Interview With Will McGugan](https://realpython.com/i
 
 ### Pomodoro Technique
 
-![Wikipedia Pomodoro Technique](images/wikipedia-pomodoro-technique.png)
+![Wikipedia Pomodoro Technique](docs/images/wikipedia-pomodoro-technique.png)
 
 [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)
 
@@ -303,7 +303,7 @@ Article: [Python Community Interview With Will McGugan](https://realpython.com/i
 
 Tick, tick, tick... RING!
 
-![Pomodoro Timer](images/timer-pomororo-2-600.jpg)
+![Pomodoro Timer](docs/images/timer-pomororo-2-600.jpg)
 
 <!-- class: timer-pic -->
 
@@ -313,7 +313,7 @@ Tick, tick, tick... RING!
 
 This one beeps when it's done, but doesn't tick the whole time.
 
-![Digital Kitchen Timer](images/timer-digital-1-600.jpg)
+![Digital Kitchen Timer](docs/images/timer-digital-1-600.jpg)
 
 <!-- class: timer-pic -->
 
@@ -323,7 +323,7 @@ This one beeps when it's done, but doesn't tick the whole time.
 
 It can be set to blink quietly.
 
-![Digital Timer Blinks](images/timer-digital-2b-600.jpg)
+![Digital Timer Blinks](docs/images/timer-digital-2b-600.jpg)
 
 <!-- class: timer-pic -->
 
@@ -331,7 +331,7 @@ It can be set to blink quietly.
 
 #### Pomodoro Timer - Not!
 
-![Rana Timer](images/timer-rana-600.jpg)
+![Rana Timer](docs/images/timer-rana-600.jpg)
 
 Well, it can be, if you want.
 
@@ -345,7 +345,7 @@ Well, it can be, if you want.
 - It's not a timesheet - I don't track all work.
 - I have other things on other tabs, so I want to keep using the spreadsheet.
 
-![Pomodori Spreadsheet](images/pomodori-spreadsheet.png)
+![Pomodori Spreadsheet](docs/images/pomodori-spreadsheet.png)
 
 <!-- class: pg-spreadsheet -->
 
@@ -433,7 +433,7 @@ I learned about `just` looking at some of Simon Willison's projects on GitHub. I
 - Post: [just-with-django.md](https://github.com/simonw/til/blob/f57ab1cddaee30af59c063ab857dac15f6d62376/django/just-with-django.md#L15)
 - Post: [Python packages with pyproject.toml and nothing else](https://til.simonwillison.net/python/pyproject)
 
-![Simon Willison GitHub](images/github-SimonWillison.jpg)
+![Simon Willison GitHub](docs/images/github-SimonWillison.jpg)
 
 ---
 
@@ -537,15 +537,15 @@ I made some edits before doing the initial `git commit`.
 
 [Bindings](https://textual.textualize.io/guide/input/#bindings) are declared in the App class.
 
-![BINDINGS](images/code-textual-bindings-1.png)
+![BINDINGS](docs/images/code-textual-bindings-1.png)
 
 Actions are implemented with the method name starting with `action_` followed by the action defined in the `BINDINGS` list.
 
-![Actions](images/code-textual-bindings-2.png)
+![Actions](docs/images/code-textual-bindings-2.png)
 
 The action descriptions show in the app's Footer.
 
-![Footer](images/app-footer.png)
+![Footer](docs/images/app-footer.png)
 
 <!-- class: img-50 -->
 
@@ -585,7 +585,7 @@ Snapshot testing for Textual apps: [pytest-textual-snapshot](https://pypi.org/pr
 
 #### Segfault
 
-![Segfault](images/screen-segfault.jpg)
+![Segfault](docs/images/screen-segfault.jpg)
 
 
 - Not sure why this happened, but I suspect I was misusing the timer event and reactivity.
