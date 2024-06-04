@@ -3,7 +3,7 @@
 
 Presented at the [Central Ohio Python Users Group](http://cohpy.org/) on April 29, 2024.
 
-*Slides* from the presentation: [Index](https://wmelvin.github.io/talk-textual-cohpy/)
+**Slides** (and links) from the presentation: [Index](https://wmelvin.github.io/talk-textual-cohpy/)
 
 ## The Example App
 
