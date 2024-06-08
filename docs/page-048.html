@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>48. Showstoppers? - Part II</title>
+<title>48. What Else?</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="custom.css">
@@ -14,14 +14,22 @@
 </div>
 
 <div id="content">
-<h3>Showstoppers? - Part II</h3>
-<h4>Segfault</h4>
-<p><img src="images/screen-segfault.jpg" alt="Segfault" /></p>
+<h2>What Else?</h2>
+<p>Some commits to look at (maybe):</p>
 <ul>
-<li><p>Not sure why this happened, but I suspect I was misusing the timer event and reactivity.</p>
-</li>
-<li><p>By default Ubuntu does not write core-dump files for user packages, so there was not one to look at (as if I'd know what I was looking at ;)</p>
-</li>
+<li>Initial UI mockup phase</li>
+<li>Adding the TimerBar that mimics the markings on the classic timer.</li>
+</ul>
+<p>Some aspects to look at in the code:</p>
+<ul>
+<li>Using classes to manage app state.</li>
+<li>Using <code>textual run --dev</code> to see TCSS changes live.</li>
+</ul>
+<p><em>Gotchas</em></p>
+<ul>
+<li>Events, reactivity, and watchers</li>
+<li>TCSS default styles on widgets (ex. Button min-width 16)</li>
+<li>When to use async</li>
 </ul>
 </div>  <!-- content -->
 

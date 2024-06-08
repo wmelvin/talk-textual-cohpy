@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>31. pipx</title>
+<title>31. pipx - Install Python Applications</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="custom.css">
@@ -13,12 +13,17 @@
   <a href="page-030.html">&larr;</a>
 </div>
 
-<div id="content" class="dbl">
-<h2>pipx</h2>
-<blockquote>
-<p>&quot;pipx is made specifically for application installation, as it adds isolation yet still makes the apps available in your shell: pipx creates an isolated environment for each application and its associated packages.&quot;</p>
-</blockquote>
-<p>I have been using <a target="_blank" href="https://github.com/pypa/pipx#readme">pipx</a> to install Python command-line applications (not libraries).</p>
+<div id="content">
+<h3>pipx - Install Python Applications</h3>
+<p>I use <strong>pipx</strong> to install some Python tools.</p>
+<p><code>pipx install hatch</code></p>
+<p><code>pipx install pgadmin4</code></p>
+<p>I also like to install my own tools, outside of development, using pipx.</p>
+<p><code>pipx install pomodorable</code></p>
+<p>Packages don't have to be on PyPI, but you have to <strong>specify the path</strong> to a <code>.whl</code> file. One uploaded to a GitHub release will work.</p>
+<p><code>pipx install image_snip@https://github.com/wmelvin/image-snip/releases/download/v2024.03.1/image_snip-2024.3.1-py3-none-any.whl</code></p>
+<p>A <code>.whl</code> file uploaded to a web hosting platform will also work.</p>
+<p><code>pipx install gitramble@https://bogusoft.com/packages/gitramble/gitramble-0.1.dev1-py3-none-any.whl</code></p>
 </div>  <!-- content -->
 
 <div id="nav-next" class="nav-link">
